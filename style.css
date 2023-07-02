@@ -1,0 +1,112 @@
+* {
+    max-width: 80vw;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin-top: 0;
+    display: flexbox;
+}
+/*
+.top {
+    max-width: 100%;
+    margin: 50px;
+    border: 1px solid black;
+    padding: 30px;
+}
+*/
+
+.logo {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+}
+
+.navigation {
+    border: 1px solid black;
+    height: 50px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 55px;
+    color: #2c016d;
+}
+
+h3 {
+    color: #2c016d;
+    font-weight: bolder;
+}
+
+p {
+    color: #555555;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul li a:visited {
+    color: #7340ff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #2c016d;
+    text-decoration: none;
+}
+
+.intro-section {
+    background-color: #f4f0ff;
+    padding: 50px;
+    border-radius: 33px;
+    margin: 50px;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 50px;
+    border-radius: 33px;
+    margin: 50px;
+}
+
+form h2 {
+    font-size: 25px;
+    color: #2c016d;
+}
+
+.email {
+    height: 20px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 100px;
+    margin-right: 10px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.submit {
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    background-color: #7340ff;
+    color: white !important;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    color: #2c016d;
+    padding: 50px;
+    border-radius: 33px;
+    margin: 50px;
+    height: 10px;
+}
+
+
+
+
+
+
